@@ -1,0 +1,17 @@
+# sixray.yaml - custom config for local training
+
+path: "C:/Users/anvesha singh/Documents/SIXray"
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6  # Number of classes
+
+names:
+  0: gun
+  1: knife
+  2: wrench
+  3: pliers
+  4: scissors
+  5: hammer
